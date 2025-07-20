@@ -7,7 +7,9 @@ const App = () => {
       <div className='container'>
         <div className='search-bar'>
           <input type='text' placeholder='Search for a word...' />
+          <button>Search</button>
         </div>
+        <div className='results'></div>
 
       </div>
     </div>
