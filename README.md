@@ -1,12 +1,35 @@
-# React + Vite
+📘 Dictionary App
+A sleek and modern Dictionary App built with React and Tailwind CSS that lets users search for any word and instantly get definitions, synonyms, examples, and more. It features a fully dark-themed UI with smooth design and responsive layout.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔥 Features
+🔍 Search any English word
 
-Currently, two official plugins are available:
+🧠 Shows definition, part of speech, synonyms, and examples
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌐 Link to original dictionary source
 
-## Expanding the ESLint configuration
+🎨 Fully styled with Tailwind CSS & @apply
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🌙 Clean dark mode aesthetic
+
+⚡ Fast and lightweight interface
+
+
+🚀 Technologies Used
+React (Vite or CRA)
+
+Tailwind CSS
+
+Free Dictionary API – https://api.dictionaryapi.dev
+
+# 1. Clone the repository
+git clone https://github.com/your-username/dictionary-app.git
+
+# 2. Navigate into the folder
+cd dictionary-app
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm run dev
