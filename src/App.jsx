@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 
 const App = () => {
   const [search, setSearch] = useState();
+  const [data, setData] = useState();
 
   const handleInput = (event) => {
     console.log(event.target.value)
@@ -12,7 +13,7 @@ const App = () => {
   const myFun = async () => {
     const get = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${search}`);
     const jsonData = await get.json();
-    console.log(get);
+    console.log(jsonData);
 
   }
   return (
