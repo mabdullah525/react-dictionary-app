@@ -30,3 +30,18 @@
 .heading {
   @apply text-5xl md:text-6xl font-extrabold mb-10 text-cyan-400 text-center;
 }
+.word-details {
+  @apply bg-gray-800 p-6 rounded-xl shadow-lg space-y-4 text-gray-200;
+}
+
+.word-title {
+  @apply text-3xl font-bold text-cyan-400 mb-4;
+}
+
+.word-details p {
+  @apply text-base leading-relaxed;
+}
+
+.read-more-btn {
+  @apply mt-4 bg-cyan-500 hover:bg-cyan-600 text-white font-semibold px-5 py-2 rounded-lg transition duration-300;
+}
